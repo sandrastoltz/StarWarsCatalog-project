@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Star Wars Catalog</title>
+</head>
+<body>
+    <header>
+        <img src="./assets/header-background.png" alt="img of a starship in space">
+        <h1>STAR WARS CATALOG</h1>
+    </header>
+    <main>
+        <div class="main__chars--container">
+            <p>Characters</p>
+            <ul id="charactersList"></ul>
+            <div class="main__charsPageBtn--container">
+                <button id="backPageBtn">◁</button>
+                <p id="charsPageCounter"></p>
+                <button id="nextPageBtn">▷</button>
+            </div>
+        </div>
+    
+        <div class="main__details--container">
+            <p>Details</p>
+            <div class="main__detailsList--container">
+                <ul id="detailsList"></ul>
+            </div>
+            <div class="main__detailsBtn--container">
+                <button class="main__detailsBtn" id="planetBtn">Planet</button>
+                <button class="main__detailsBtn" id="speciesBtn">Species</button>
+                <button class="main__detailsBtn" id="vehiclesBtn">Vehicles</button>
+                <button class="main__detailsBtn" id="starshipsBtn">Starships</button>
+            </div>
+            <ul id="detailsBtnList"></ul>
+        </div>
+    </main>
+
+    <script src="script.js"></script>
+</body>
+</html>
