@@ -282,6 +282,8 @@ function fetchData() {
                         return res.json();
                     })
                 ))
+                // <li>Hyperdrive rating: ${starshipsData.hyperdrive_rating}</li>
+                // <li>Length: ${starshipsData.length}m</li>
                 .then(starshipsDataArray => {
                     console.log(starshipsDataArray);
                     // vi skapar en lista av element från userns 'starships' och lägger listan i html
@@ -296,9 +298,9 @@ function fetchData() {
                             `<li>${starshipsData.name}</li>
                             <li>Starship class: ${starshipsData.starship_class}</li>
                             <li>Model: ${starshipsData.model}</li>
-                            <li>Length: ${starshipsData.length}m</li>
+                            
                             <li>Max atmospheric speed: ${starshipsData.max_atmosphering_speed}km/h</li>
-                            <li>Hyperdrive rating: ${starshipsData.hyperdrive_rating}</li>
+                            
                             <li>Crew: ${starshipsData.crew}</li>
                             <li>Passengers: ${starshipsData.passengers}</li>
                             <li>Manufacturer: ${starshipsData.manufacturer}</li>

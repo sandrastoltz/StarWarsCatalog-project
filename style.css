@@ -233,7 +233,7 @@ main {
 }
 
 #detailsBtnList {
-    height: 16.7rem;
+    height: 14.7rem;
     color: rgba(255, 255, 255, 1);
     font-family: 'Roboto', sans-serif;
     font-size: 1.125rem;
@@ -242,9 +242,10 @@ main {
     line-height: normal;
     letter-spacing: 0.225rem;
     list-style: none;
-    line-height: 1.3rem;
+    line-height: 1.5rem;
     padding-left: 1.125rem;
     background-color: rgba(142, 142, 142, 1);
+    overflow-y: auto;
 }
 
 #detailsBtnList li:first-child {
@@ -258,5 +259,5 @@ main {
     font-family: 'Roboto', sans-serif;
     font-size: 1.125rem;
     letter-spacing: 0.225rem;
-    padding: 8rem 0 0 0;
+    padding: 7rem 1.125rem 0 0;
 }
